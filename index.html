@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Shop</title>
+</head>
+<body>
+    <!-- Навигация -->
+    <div class="menu">
+        <ul class="links">
+            <li class="to_main">
+                <a href="#" class="to_main_btn">Главная</a>
+            </li>
+            <li class="to_basket">
+                <a href="#" class="to_basket_btn">Корзина</a>
+            </li>
+            <li class="to_profile">
+                <a href="#" class="to_profile_btn">Профиль</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="to_log_btn">Log in</a> 
+            </li>
+            <li class="category">
+                <div class="select_category" tabindex="1">
+                    <input class="select_opt" name="category" type="radio" id="opt1" checked>
+                    <label for="opt1" class="option">All</label>
+                </div>
+            </li> 
+        </ul>
+        <a href="#" class="log_out_btn">Log out</a>
+    </div>
+
+    <div class="all_forms">
+        <div class="login_form">
+          <h1 class="form_header">Авторизация</h1>
+          <form action="">
+           <div class="form_data">
+                <ul class="user_data">
+                    <li>
+                        <label class="label" for="auth_log">Логин</label>
+                        <br>
+                        <input type="text" class="data_field" id="auth_log" minlength="6" required placeholder="Enter username">
+                    </li>
+                    <li>
+                        <label class="label" for="auth_pwd">Пароль</label>
+                        <br>
+                        <input type="password" class="data_field" id="auth_pwd" minlength="6" maxlength="30" required placeholder="Enter password">
+                    </li>
+                </ul>
+            </div>
+            <div class="form_btn">
+                <input type="submit" value="Войти" class="login_btn">
+            </div>
+            <div>
+                <ul class="to_other_form">
+                    <li>
+                        <input type="button" class="to_other_form_btn" value="Пройти регистрацию" id="to_reg_btn">
+                    </li>
+                </ul>
+            </div>
+          </form>
+        </div>
+
+        <div class="registration_form">
+            <h1 class="form_header">Регистрация</h1>
+            <form id="reg_form">
+                <div class="form_data">
+                    <ul class="user_data">
+                        <li>
+                            <label class="label" for="reg_log">Логин</label>
+                            <bruh></bruh>
+                            <br class="bruh">
+                            <bruh></bruh>
+                            <input type="text" class="data_field" id="reg_log" minlength="6" required placeholder="Enter username">
+                        </li>
+                        <li>
+                            <label class="label" for="reg_pwd">Пароль</label>
+                            <br>
+                            <input type="password" class="data_field" id="reg_pwd" minlength="6" maxlength="30" required placeholder="Enter password">
+                        </li>
+                    </ul>
+                </div>
+                <div class="form_btn">
+                    <input type="submit" value="Создать" class="reg_btn">
+                </div>
+            </form>
+                <div class="form_btn">
+                    <button class="to_other_form_btn" id="to_login">Войти в аккаунт</button>
+                </div>
+          </div>
+    </div>
+    <div class="content_page">
+
+    </div>
+      
+    <div class="content" id="content_page"> 
+
+    </div>
+        
+    <div class="about_product_page" id="about_product_page">
+        
+    </div>
+
+
+    
+    <script src="script.js?v=1"></script>
+</body>
+</html>
