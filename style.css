@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Montserrat, Inter;
 }
 
 body{
@@ -59,7 +60,8 @@ body{
 
 .to_main_btn,
 .to_basket_btn,
-.to_profile_btn {
+.to_profile_btn,
+.to_search_btn {
     display: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -524,3 +526,130 @@ body{
 }
 
 /* Basket ends */
+
+/* Profile ends */
+
+.profile {
+    background-color: white;
+    padding: 24px 36px;
+    border-radius: 24px;
+    margin: 80px 0;
+}
+
+.profile_image_wrapper {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image {
+    width: 100%;
+    background-color: #95bdff;
+    border-radius: 50%;
+}
+
+.profile_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 0;
+}
+
+.profile_info_wrapper {
+    padding: 12px 24px;
+}
+
+.profile_info_wrapper > form > input {
+    width: 100%;
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.profile_submit_btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_submit_btn {
+    padding: 8px 42px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    background-color: #b5f5b7;
+    color: #309435;
+}
+
+/* Profile starts */
+
+/* Comments starts */
+.product_comments_section {
+    margin: 80px 0;
+}
+
+.product_comments_wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 12px;
+    margin: 24px 0;
+    padding: 24px 46px;
+}
+
+
+.product_comment {
+    background-color: #e0ffe0;
+    padding: 12px 24px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.product_comment_name {
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.product_comments_heading {
+    margin: 12px 0;
+}
+
+.product_comment_name {
+
+}
+
+.product_comment_form {
+    display: flex;
+}
+
+#product_comment_input {
+    width: 400px;
+    padding: 0 12px;
+}
+
+#product_comment_submit {
+    border: 0;
+    background-color: #e0ffe0;
+    padding: 12px 24px;
+}
+
+/* Comments ends */
+
+/* Search starts */
+
+#search_content {
+    display: flex;
+    height: 32px;
+    margin: 40px 100px;
+    margin-bottom: 0px;
+
+}
+
+#search-input {
+    padding: 0 12px;
+    width: 400px;
+}
+
+/* Search ends */
